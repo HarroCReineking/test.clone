@@ -1,0 +1,25 @@
+{
+  "codeCoverage": {
+    "Configuration": {
+      "Format": "cobertura",
+      "CodeCoverage": {       
+        "ModulePaths": {
+          "Include": [
+            ".*\\.dll$"
+          ]
+        },
+        "Sources": {
+          "Exclude": [
+            ".*Microsoft.*",
+            "*Microsoft*"
+          ]
+        },
+        "CompanyNames": {
+          "Exclude": [
+            ".*microsoft.*"
+          ]
+        }
+      }
+    }
+  }
+}

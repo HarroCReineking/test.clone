@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>Playground.DomainApi</AssemblyName>
+        <RootNamespace>Playground.DomainApi</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="../DomainModel/DomainModel.csproj" />
+    </ItemGroup>
+</Project>

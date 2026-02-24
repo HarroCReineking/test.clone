@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Playground.WebApi.UnitTests</AssemblyName>
+    <RootNamespace>Playground.WebApi.UnitTests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Moq" />
+    <PackageReference Include="TUnit" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebApi\WebApi.csproj" />
+  </ItemGroup>
+</Project>

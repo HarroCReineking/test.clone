@@ -1,0 +1,13 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <CentralPackageTransitivePinning>true</CentralPackageTransitivePinning>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.103" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="10.1.4" />
+    <PackageVersion Include="Swashbuckle.AspNetCore.Swagger" Version="10.1.4" />
+    <PackageVersion Include="Moq" Version="4.20.72" />
+    <PackageVersion Include="TUnit" Version="1.16.4" />
+  </ItemGroup>
+</Project>

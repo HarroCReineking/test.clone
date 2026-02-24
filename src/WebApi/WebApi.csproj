@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <AssemblyName>Playground.WebApi</AssemblyName>
+        <RootNamespace>Playground.WebApi</RootNamespace>
+    </PropertyGroup>
+<!-- Add packagereferences here -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" />
+  </ItemGroup>
+  <!-- Add references to other projects here -->
+  <ItemGroup>
+    <ProjectReference Include="..\DomainApi\DomainApi.csproj" />
+  </ItemGroup>
+</Project>
