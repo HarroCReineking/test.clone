@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document provides a high-level architectural overview of the Playground API project, a RESTful API built on .NET 10 and ASP.NET Core. The architecture follows clean architecture principles with a layered structure designed to ensure separation of concerns, maintainability, and testability.
+This document provides a high-level architectural overview of the TestClone API project, a RESTful API built on .NET 10 and ASP.NET Core. The architecture follows clean architecture principles with a layered structure designed to ensure separation of concerns, maintainability, and testability.
 
 ## Architectural Style
 
@@ -44,7 +44,7 @@ Dependencies flow **inward only**:
 ### WebApi (Presentation Layer)
 
 **Location:** `src/WebApi/`  
-**Assembly:** `Playground.WebApi`  
+**Assembly:** `TestClone.WebApi`  
 **Purpose:** HTTP endpoint management and API contracts
 
 **Responsibilities:**
@@ -57,7 +57,7 @@ Dependencies flow **inward only**:
 
 **Key Components:**
 - `Program.cs` - Application entry point, middleware pipeline configuration
-- `PlaygroundController.cs` - Example controller demonstrating API patterns
+- `TestCloneController.cs` - Example controller demonstrating API patterns
 - `appsettings.json` - Configuration management
 
 **Dependencies:**
@@ -68,7 +68,7 @@ Dependencies flow **inward only**:
 ### DomainApi (Business Logic Layer)
 
 **Location:** `src/DomainApi/`  
-**Assembly:** `Playground.DomainApi`  
+**Assembly:** `TestClone.DomainApi`  
 **Purpose:** Business logic orchestration and application services
 
 **Responsibilities:**
@@ -90,7 +90,7 @@ Dependencies flow **inward only**:
 ### DomainModel (Domain Layer)
 
 **Location:** `src/DomainModel/`  
-**Assembly:** `Playground.DomainModel`  
+**Assembly:** `TestClone.DomainModel`  
 **Purpose:** Core domain entities and business rules
 
 **Responsibilities:**
@@ -203,7 +203,7 @@ builder.Services.AddScoped<IFacade, Facade>();
 ```csharp
 [ApiController]
 [Route("[controller]")]
-public class PlaygroundController(IFacade facade) : ControllerBase
+public class TestCloneController(IFacade facade) : ControllerBase
 {
     [HttpGet]
     [Route("TestOperation")]
@@ -295,7 +295,7 @@ public class PlaygroundController(IFacade facade) : ControllerBase
 
 **Usage:** Modern C# 12+ primary constructor syntax in controllers
 
-**Example:** `PlaygroundController(IFacade facade)`
+**Example:** `TestCloneController(IFacade facade)`
 
 **Rationale:**
 - Reduces boilerplate code

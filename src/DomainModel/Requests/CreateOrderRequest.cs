@@ -1,4 +1,4 @@
-namespace Playground.DomainModel.Requests
+namespace TestClone.DomainModel.Requests
 {
     /// <summary>
     /// Request model for creating a product order.

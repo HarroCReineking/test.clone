@@ -1,7 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
-using Playground.DomainApi.Interfaces;
+using TestClone.DomainApi.Interfaces;
 
-namespace Playground.WebApi
+namespace TestClone.WebApi
 {
     [ExcludeFromCodeCoverage]
     public partial class Program

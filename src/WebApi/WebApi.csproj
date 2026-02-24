@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
     <PropertyGroup>
-        <AssemblyName>Playground.WebApi</AssemblyName>
-        <RootNamespace>Playground.WebApi</RootNamespace>
+        <AssemblyName>TestClone.WebApi</AssemblyName>
+        <RootNamespace>TestClone.WebApi</RootNamespace>
     </PropertyGroup>
 <!-- Add packagereferences here -->
   <ItemGroup>

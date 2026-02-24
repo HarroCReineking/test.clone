@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <AssemblyName>Playground.DomainApi</AssemblyName>
-        <RootNamespace>Playground.DomainApi</RootNamespace>
+        <AssemblyName>TestClone.DomainApi</AssemblyName>
+        <RootNamespace>TestClone.DomainApi</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="../DomainModel/DomainModel.csproj" />

@@ -1,7 +1,7 @@
-using Playground.DomainApi.Interfaces;
-using Playground.DomainModel.Requests;
+using TestClone.DomainApi.Interfaces;
+using TestClone.DomainModel.Requests;
 
-namespace Playground.DomainApi.UnitTests
+namespace TestClone.DomainApi.UnitTests
 {
     public class FacadeTests
     {

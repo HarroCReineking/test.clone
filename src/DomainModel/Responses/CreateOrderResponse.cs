@@ -1,4 +1,4 @@
-namespace Playground.DomainModel.Responses
+namespace TestClone.DomainModel.Responses
 {
     /// <summary>
     /// Response model for a created product order.

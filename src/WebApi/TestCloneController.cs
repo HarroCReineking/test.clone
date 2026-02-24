@@ -1,15 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
-using Playground.DomainApi.Interfaces;
-using Playground.DomainModel.Requests;
-using Playground.DomainModel.Responses;
+using TestClone.DomainApi.Interfaces;
+using TestClone.DomainModel.Requests;
+using TestClone.DomainModel.Responses;
 
-namespace Playground.WebApi
+namespace TestClone.WebApi
 {
     /// <summary>
-    /// Controller for playground API operations.
+    /// Controller for TestClone API operations.
     /// </summary>
     [ApiController]
-    public class PlaygroundController(IFacade facade) : ControllerBase
+    public class TestCloneController(IFacade facade) : ControllerBase
     {
         /// <summary>
         /// Executes the test operation and returns the result.
