@@ -1,20 +1,20 @@
-using Playground.DomainApi.Interfaces;
-using Playground.DomainModel.Requests;
-using Playground.DomainModel.Responses;
+using TestClone.DomainApi.Interfaces;
+using TestClone.DomainModel.Requests;
+using TestClone.DomainModel.Responses;
 using Moq;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Playground.WebApi.UnitTests
+namespace TestClone.WebApi.UnitTests
 {
-    public class PlaygroundControllerTests
+    public class TestCloneControllerTests
     {
         private readonly Mock<IFacade> _facade;
-        private readonly PlaygroundController _controller;
+        private readonly TestCloneController _controller;
 
-        public PlaygroundControllerTests()
+        public TestCloneControllerTests()
         {
             _facade = new Mock<IFacade>();
-            _controller = new PlaygroundController(_facade.Object);
+            _controller = new TestCloneController(_facade.Object);
         }
 
         [Test]

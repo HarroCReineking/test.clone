@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <AssemblyName>Playground.DomainApi.UnitTests</AssemblyName>
-    <RootNamespace>Playground.DomainApi.UnitTests</RootNamespace>
+    <AssemblyName>TestClone.DomainApi.UnitTests</AssemblyName>
+    <RootNamespace>TestClone.DomainApi.UnitTests</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="TUnit" />

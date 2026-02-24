@@ -1,10 +1,10 @@
-using Playground.DomainModel.Requests;
-using Playground.DomainModel.Responses;
+using TestClone.DomainModel.Requests;
+using TestClone.DomainModel.Responses;
 
-namespace Playground.DomainApi.Interfaces
+namespace TestClone.DomainApi.Interfaces
 {
     /// <summary>
-    /// Implements facade operations for the playground API.
+    /// Implements facade operations for the TestClone API.
     /// </summary>
     public class Facade : IFacade
     {

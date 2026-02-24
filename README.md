@@ -1,6 +1,6 @@
-# playground.api
+# test.clone
 
-A playground project for exploring .NET 10 and ASP.NET Core technologies using clean architecture principles.
+A project for exploring .NET 10 and ASP.NET Core technologies using clean architecture principles.
 
 ## Architecture
 

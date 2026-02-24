@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <AssemblyName>Playground.DomainModel</AssemblyName>
-        <RootNamespace>Playground.DomainModel</RootNamespace>
+        <AssemblyName>TestClone.DomainModel</AssemblyName>
+        <RootNamespace>TestClone.DomainModel</RootNamespace>
     </PropertyGroup>
 </Project>
