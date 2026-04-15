@@ -3,7 +3,7 @@
     <CentralPackageTransitivePinning>true</CentralPackageTransitivePinning>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="10.0.6" />
     <PackageVersion Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.201" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="10.1.7" />
     <PackageVersion Include="Swashbuckle.AspNetCore.Swagger" Version="10.1.7" />
