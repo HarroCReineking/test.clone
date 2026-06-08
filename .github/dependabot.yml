@@ -3,4 +3,8 @@ updates:
   - package-ecosystem: "nuget"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "quarterly"
+    groups:
+      all-dependencies:
+        patterns:
+          - "*"
